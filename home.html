@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Birthday Calculator</title>
+</head>
+
+<body>
+  <h3>AKAN BIRTHDAY CALCULATOR</h3>
+
+  <div>
+    <h3>YOUR AKAN NAME IS: </h2>
+    <h1 id="akanName"></h1>
+  </div>
+  <ol>
+    <li>Fill in your date of birth</li>
+    <li>
+      Choose your gender</li>
+      <li>
+        Click the submit button</li>
+  </ol>
+    <form>
+      <label>Date Of Birth</label>
+      <input type="date" id="d.o.b" name="d.o.b" required>
+  
+      <label>Gender</label>
+      <select id="gender" name="gender" required>
+        <option  selected disabled  value="">SELECT YOUR GENDER</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    
+      <input type="button" class="button" onclick="validateForm()" value="SUBMIT ">
+    </form>
+ 
+
+
+
+  <!-- JavaScript link -->
+  <script src="getAkanName.js"></script>
+
+</body>
+
+
+
+
+</html>
